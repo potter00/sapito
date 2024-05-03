@@ -1,6 +1,7 @@
 package mx.itson.sapito
 
 import android.content.Context
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -39,9 +40,14 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
         Call.enqueue(object : Callback<Location>{
             override fun onResponse(call: Call<Location>, response: Response<Location>) {
                 val location : Location? = response.body()
-                Log.i("elevacion",location?.elevation.toString())
-                Toast.makeText(context, "@string/Location_elevation" + location?.elevation,
-                    Toast.LENGTH_LONG).show()
+
+                val intent = Intent(context, InfoActivity::class.java)
+                intent.putExtra("temperature", location?.current_weather?.temperature)
+                intent.putExtra("elevation", location?.elevation)
+                intent.putExtra("windSpeed", location?.current_weather?.windSpeed)
+                intent.putExtra("windDirection", location?.current_weather?.windDirection)
+                intent.putExtra("weatherCode", location?.current_weather?.weatherCode)
+                startActivity(intent)
             }
 
             override fun onFailure(call: Call<Location>, t: Throwable) {

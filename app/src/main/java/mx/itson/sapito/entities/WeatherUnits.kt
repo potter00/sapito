@@ -9,4 +9,6 @@ class WeatherUnits {
     var windSpeedUnit: String? = null
     @SerializedName("winddirection")
     var windDirectionUnit: String? = null
+    @SerializedName("weathercode")
+    var weatherCode : String? = null
 }
