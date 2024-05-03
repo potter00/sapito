@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sapito</string>
+    <string name="title_activity_location_info">LocationInfo</string>
+    <string name="weather_info">Weather Info</string>
+    <string name="weather_temp">Temperature</string>
+    <string name="weather_wind">Wind Force</string>
+    <string name="weather_humidity">humidity</string>
+    <string name="weather_type">Weather</string>
+</resources>
