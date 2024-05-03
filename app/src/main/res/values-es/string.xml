@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sapito</string>
+    <string name="title_activity_location_info">Info de localización</string>
+    <string name="weather_info">Info del clima</string>
+    <string name="weather_temp">Temperatura</string>
+    <string name="wind_speed">Velocidad del viento</string>
+    <string name="wind_direction">Dirección del viento</string>
+    <string name="weather_humidity">Humedad</string>
+    <string name="weather_type">Codigo del clima</string>
+    <string name="Location_elevation">Elevación</string>
+    <string name="Location_longitude">Longitud</string>
+    <string name="Location_latitude">Latitud</string>
+    <string name="weather_unit">Unidades del clima actual</string>
+    <string name="current_weather">Clima Actual</string>
+</resources>

@@ -40,6 +40,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
         Call.enqueue(object : Callback<Location>{
             override fun onResponse(call: Call<Location>, response: Response<Location>) {
                 val location : Location? = response.body()
+
                 val intent = Intent(context, InfoActivity::class.java)
                 intent.putExtra("temperature", location?.current_weather?.temperature)
                 intent.putExtra("elevation", location?.elevation)
@@ -82,8 +83,8 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
             map?.setOnMapClickListener { latLng ->
                 val lat = latLng.latitude.toString()
                 val lgn = latLng.longitude.toString()
-                Log.i("Latitud",lat)
-                Log.i("loongitud",lgn )
+                Log.i("@string/Location_latitude",lat)
+                Log.i("@string/Location_longitude",lgn )
                 getLocation(lat,lgn)
             }
         }catch(ex : Exception){

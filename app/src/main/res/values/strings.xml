@@ -1,9 +1,15 @@
 <resources>
-    <string name="app_name">Sapito</string>
+    <string name="app_name">Froggy</string>
     <string name="title_activity_location_info">LocationInfo</string>
     <string name="weather_info">Weather Info</string>
     <string name="weather_temp">Temperature</string>
-    <string name="weather_wind">Wind Force</string>
-    <string name="weather_humidity">humidity</string>
-    <string name="weather_type">Weather</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="wind_direction">Wind direction</string>
+    <string name="weather_humidity">Humidity</string>
+    <string name="weather_type">Weather Code</string>
+    <string name="Location_elevation">Elevation</string>
+    <string name="Location_longitude">Longitude</string>
+    <string name="Location_latitude">Latitude</string>
+    <string name="weather_unit">Current weather unit</string>
+    <string name="current_weather">Current weather</string>
 </resources>
