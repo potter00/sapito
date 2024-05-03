@@ -15,6 +15,9 @@
         android:theme="@style/Theme.Sapito"
         tools:targetApi="31">
         <activity
+            android:name=".InfoActivity"
+            android:exported="false" />
+        <activity
             android:name=".views.LocationInfo"
             android:exported="false"
             android:label="@string/title_activity_location_info"
