@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
             override fun onResponse(call: Call<Location>, response: Response<Location>) {
                 val location : Location? = response.body()
                 Log.i("elevacion",location?.elevation.toString())
-                Toast.makeText(context, "La elevacion es de " + location?.elevation,
+                Toast.makeText(context, "@string/Location_elevation" + location?.elevation,
                     Toast.LENGTH_LONG).show()
             }
 
@@ -77,8 +77,8 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
             map?.setOnMapClickListener { latLng ->
                 val lat = latLng.latitude.toString()
                 val lgn = latLng.longitude.toString()
-                Log.i("Latitud",lat)
-                Log.i("loongitud",lgn )
+                Log.i("@string/Location_latitude",lat)
+                Log.i("@string/Location_longitude",lgn )
                 getLocation(lat,lgn)
             }
         }catch(ex : Exception){
