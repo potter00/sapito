@@ -13,4 +13,18 @@
     <string name="Location_latitude">Latitud</string>
     <string name="weather_unit">Unidades del clima actual</string>
     <string name="current_weather">Clima Actual</string>
+
+    <string name="Clear_sky">Cielo despejado</string>
+    <string name="Partly_cloud">Parcialmente nublado</string>
+    <string name="Fog">Nublado</string>
+    <string name="Drizzle">Llovizna</string>
+    <string name="Freezing_drizzle">Llovizna helada</string>
+    <string name="Rain">Lluvia</string>
+    <string name="Freezing_rain">Lluvia helada</string>
+    <string name="Snow_fall">Nevado</string>
+    <string name="Snow_grains">Nevada granulada</string>
+    <string name="Rain_shower">Aguacero</string>
+    <string name="Snow_shower">Lluvia de nieve</string>
+    <string name="Thunderstorm">Tormenta electrica</string>
+    <string name="SnH_Thunderstorm">Tormenta electrica con granizo ligero y fuerte</string>
 </resources>

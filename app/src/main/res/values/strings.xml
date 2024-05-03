@@ -12,4 +12,19 @@
     <string name="Location_latitude">Latitude</string>
     <string name="weather_unit">Current weather unit</string>
     <string name="current_weather">Current weather</string>
+
+    <string name="Clear_sky">Clear sky</string>
+    <string name="Partly_cloud">Partly cloud</string>
+    <string name="Fog">Foggy</string>
+    <string name="Drizzle">Drizzle</string>
+    <string name="Freezing_drizzle">Freezing drizzle</string>
+    <string name="Rain">Rain</string>
+    <string name="Freezing_rain">Freezing rain</string>
+    <string name="Snow_fall">Snow fall</string>
+    <string name="Snow_grains">Snow grains</string>
+    <string name="Rain_shower">Rain shower</string>
+    <string name="Snow_shower">Snow shower</string>
+    <string name="Thunderstorm">Thunderstorm</string>
+    <string name="SnH_Thunderstorm">Thunderstorm with slight and heavy hail</string>
+
 </resources>
