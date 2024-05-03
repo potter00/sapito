@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".views.Info">
+
+    <TextView
+        android:id="@+id/text_weather_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/weather_info"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/text_view_temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/weather_temp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAlignment="center">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/text_view_temp_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="28c"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/weather_wind"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingTop="10sp"
+        />
+    <TextView
+        android:id="@+id/text_view_wind_speed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bien recio"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wind direction"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingTop="10sp"
+        />
+    <TextView
+        android:id="@+id/text_view_wind_direction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bien recio"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/weather_type"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingTop="10sp"
+        />
+
+    <TextView
+        android:id="@+id/text_view_weather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Soleado"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elevation"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingTop="10sp"
+        />
+
+    <TextView
+        android:id="@+id/text_view_elevation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Soleado"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+
+
+
+</LinearLayout>
