@@ -39,55 +39,55 @@ class InfoActivity : AppCompatActivity() {
 
         when(weatherCode) {
             0 -> {
-                text = "Clear sky"
+                text = getString(R.string.Clear_sky)
                 image = R.drawable.soleado
             }
             in 1..3-> {
-                text = "Partly cloudy"
+                text = getString(R.string.Partly_cloud)
                 image = R.drawable.partly_cloudy
             }
             in 45..48-> {
-                text = "Fog"
+                text = getString(R.string.Fog)
                 image = R.drawable.fog
             }
             in 51..55-> {
-                text = "Drizzle"
+                text = getString(R.string.Drizzle)
                 image = R.drawable.drizzle
             }
             in 56..57-> {
-                text = "Freezing drizzle"
+                text = getString(R.string.Freezing_drizzle)
                 image = R.drawable.freezing_drizzle
             }
             in 61..65-> {
-                text = "Rain"
+                text = getString(R.string.Rain)
                 image = R.drawable.rain
             }
             in 66..67-> {
-                text = "Freezing rain"
+                text = getString(R.string.Freezing_rain)
                 image = R.drawable.freezing_rain
             }
             in 71..75-> {
-                text = "Snow fall"
+                text = getString(R.string.Snow_fall)
                 image = R.drawable.snow_fall
             }
             77-> {
-                text = "Snow grains"
+                text = getString(R.string.Snow_grains)
                 image = R.drawable.snow_grains
             }
             in 80..82-> {
-                text = "Rain showers"
+                text = getString(R.string.Rain_shower)
                 image = R.drawable.rain_showers
             }
             in 85..86-> {
-                text = "Snow showers"
+                text = getString(R.string.Snow_shower)
                 image = R.drawable.snow_showers
             }
             95-> {
-                text = "Thunderstorm"
+                text = getString(R.string.Thunderstorm)
                 image = R.drawable.thunderstorm
             }
             in 96..99-> {
-                text = "Thunderstorm with slight and heavy hail"
+                text = getString(R.string.SnH_Thunderstorm)
                 image = R.drawable.thunderstorm_heavy_hail
             }
         }
